@@ -1,0 +1,17 @@
+
+.container {
+    padding: 120px 80px; 
+}
+.banner-topo {
+    background-image: url("/img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;  
+}
+.container-nome-logo {
+    max-width: 250px;
+    color: #3c184e;
+}
+span {
+    font-weight: 700;
+    font-style: italic;
+}
