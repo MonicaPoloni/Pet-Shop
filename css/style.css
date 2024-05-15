@@ -1,17 +1,138 @@
-
-.container {
-    padding: 120px 80px; 
+.destaque {
+    font-style: italic;
+    font-weight: 700;
 }
-.banner-topo {
-    background-image: url("/img/banner-topo.jpg");
-    background-position: center;
-    background-size: cover;  
-}
-.container-nome-logo {
-    max-width: 250px;
+h3 {
+    font-size: 36px;
     color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
 }
 span {
     font-weight: 700;
     font-style: italic;
+    color: #3c184e;
 }
+.secao-topo {
+    width: 100%;
+    padding: 170px 120px;
+    background-image: url("/img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.secao-nome-logo {
+    max-width: 300px;
+    color: #3c184e;
+}
+.secao-topo img {
+    width: 33px;
+    margin-right: 5px;
+}
+.secao-nome-logo .nome-pet-shop {
+    font-size: 40px;
+    margin: 0 0 5px 0;
+}
+.secao-nome-logo .p1 {
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    color: #3c184e;
+}
+.container-banner {
+    max-width: 1350px;
+    border-radius: 12px;
+    padding: 50px;
+    margin: 70px auto auto;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+.fale-conosco {
+    font-size: 58px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 40px;
+    letter-spacing: 1px; 
+    word-spacing: 1px;
+    padding: auto 30px; 
+}
+.link-fale-conosco a {
+    color: #ffff;
+}
+.link-fale-conosco {
+    text-align: center;
+    width: 240px;
+    padding: 15px 23px;
+    font-size: 24px;
+    background-color: #3c184e;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.link-fale-conosco img {
+    width: 20px
+}
+.container-servicos {
+    max-width: 800px;
+    color: #3c184e;
+    margin: 0 auto 50px;
+    h3 {
+        font-size: 36px;
+        color: #3c184e;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 45px;
+        font-weight: 600;
+        word-spacing: 2px;  
+    }
+}
+.container-servicos li {
+    font-size: 21px;
+    margin: 0 0 20px;
+    padding: 1px
+}
+.secao-fotos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 40px; 
+    
+}
+.secao-fotos img {
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    border-radius: 5px;  
+}
+.secao-faixa {
+        background-color: #3c184e;
+        text-align: center;
+        max-width: 100%;
+        color: #fff;
+        font-size: 43px;
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        padding: 120px 80px;
+        
+    }
+
+.rs {
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;  
+}
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+.redes-sociais a {
+    margin: 0 20px;
+}
+.secao-rodape {
+    background-color: #3c184e;
+    color: #fff;
+    height: 35px;
+    padding-top: 7px;
+    text-align: center;
+    }
